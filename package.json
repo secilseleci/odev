@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "base.scss": "node_modules/.bin/node-sass"
+    "compile-sass-file": "node_modules/.bin/node-sass"
   },
   "keywords": [],
   "author": "",

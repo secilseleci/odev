@@ -1,32 +1,122 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  color: white;
+  line-height: 1.5;
+  background-color: #333 !important;
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .header-container {
-  height: 50vh;
-  color: white;
-
-  background: linear-gradient(
-      to bottom,
-      rgba(10, 10, 10, 0.6),
-      rgba(10, 10, 10, 0.6)
-    ),
-    url(img/header.png);
   font-size: 1.2rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(img/header.png);
+  opacity: 0.4;
+  height: 30rem;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.btn {
+  background-color: #414141;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.1rem;
+}
+
+.main-title {
+  width: 100%;
+  text-align: center;
+}
+.card {
+  width: 100%;
+  background-color: #414141;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card-item {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #5c5858;
+  padding: 20px;
+  margin: 20px;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+}
+.card-text {
+  text-align: center;
+  width: 100%;
+}
+
+.contact-about-us {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-us {
+  background-color: rgb(98, 98, 192);
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.about-us {
+  background-color: #414141;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 50%;
 }
 
-.btn {
-  background-color: gray;
+footer {
+  background-color: black;
   color: white;
-  padding: 15px 25px;
-  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 0.5rem;
+  font-size: 0.8rem;
+  padding: 20px;
+}
+#section-1 {
+  padding: 3rem 0;
+  background-color: #eaeaea;
+  color: black;
+}
+#section-3 {
+  padding: 3rem 0;
+  background-color: #eaeaea;
+  color: black;
 }
