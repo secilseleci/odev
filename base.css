@@ -11,6 +11,8 @@ body {
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+/* index.html */
 .header-container {
   font-size: 1.2rem;
   height: 30rem;
@@ -58,7 +60,7 @@ body {
   padding: 20px;
   margin: 20px;
 }
-.card-img {
+.card-image {
   width: 100%;
   height: 100%;
 }
@@ -120,3 +122,4 @@ footer {
   background-color: #eaeaea;
   color: black;
 }
+/* index.html */
