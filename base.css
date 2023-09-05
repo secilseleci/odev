@@ -12,7 +12,6 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-/* index.html */
 .header-container {
   font-size: 1.2rem;
   height: 30rem;
@@ -66,10 +65,11 @@ body {
 }
 
 img {
-  width: 20rem;
-  height: 20rem;
+  width: 100%;
+  height: 100%;
 }
 .card-text {
+  font-size: 1rem;
   text-align: center;
   width: 100%;
 }
@@ -78,6 +78,7 @@ img {
   width: 100%;
   height: 300px;
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   color: #fff;
 }
@@ -101,6 +102,14 @@ img {
   width: 50%;
 }
 
+.contact-about-us-btn {
+  text-decoration: none;
+  color: #34028b;
+}
+.contact-about-us-btn:hover {
+  text-decoration: none;
+  color: #fff;
+}
 footer {
   background-color: black;
   color: white;
@@ -122,4 +131,12 @@ footer {
   background-color: #eaeaea;
   color: black;
 }
-/* index.html */
+@media (max-width: 760px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card-item {
+    width: 90%;
+  }
+}
